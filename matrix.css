@@ -1,0 +1,44 @@
+body {
+  color: black;
+  font-family: monospace;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+#matrix {
+  background-color: white;
+}
+
+#buttons {
+  background-color: white;
+  margin: 15px;
+}
+
+.btn {
+  font-family: monospace;
+  background-color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  margin: 10px;
+  padding: 5px 15px;
+}
+
+.cell_inp {
+  font-family: monospace;
+  padding: 2px;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: thin;
+  text-align: center;
+}
